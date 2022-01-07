@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: var(--ff);
+    color: white;
+}
+
+.header {
+    color: white;
+
+    &__profile {
+        font-size: .5rem;
+    }
+
+    &__title {
+        font-weight: 300;
+        color: var(--pale-blue);
+        
+    }
+    
+    &__span {
+        color: white;
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    &__nav {
+        font-size: 1.1rem;
+        color: var(--desaturated-blue);
+    }
+
+}
+
+.card {
+
+    &__hours {
+        font-weight: 300;
+        font-size: 1.9rem;
+        opacity: .8;
+    }
+
+    &__stats {
+        color: var(--pale-blue);
+        font-size: 1rem;
+        opacity: .8;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .header {
+
+        &__title {
+            font-weight: 400;     
+            line-height: 1.4;       
+        }
+
+        &__span {
+            font-size: 2rem;
+            font-weight: 300;
+        }
+
+    }
+
+    .card {
+
+        &__hours {
+            font-size: 3.5rem;
+            opacity: 1;
+        }
+        
+    }
+}
